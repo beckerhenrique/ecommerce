@@ -1,0 +1,15 @@
+.discountPage{
+   text-align: center;
+   padding-top: 2rem;
+   width: 90%;
+   margin: auto;
+   background-color: aliceblue;
+   margin-bottom: 1rem;
+}
+.top15-container{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1rem;
+   padding: 1rem;
+   justify-content: center;
+}

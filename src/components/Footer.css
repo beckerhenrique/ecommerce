@@ -1,0 +1,20 @@
+.footer{
+   display: flex;
+   justify-content: space-between;
+   padding: 1rem;
+   background-color: #091834;
+   width: 90%;
+   margin: auto;
+   align-items: center;
+   color: #6395F2;
+   gap: 10px;
+}
+.footer h3{
+   line-break: auto;
+   width: 300px;
+}
+.githubIcon{
+   font-size: 30px;
+   padding-right: 2rem;
+   cursor: pointer;
+}

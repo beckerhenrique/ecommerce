@@ -1,0 +1,16 @@
+.categoryBtn{
+   height: 30px;
+   color: black;
+}
+#linkCategoryBtn:visited{
+   text-decoration: none;
+}
+#linkCategoryBtn:link{
+   text-decoration: none;
+}
+#linkCategoryBtn p{
+   text-transform: uppercase;
+}
+#linkCategoryBtn{
+   color: black;
+}

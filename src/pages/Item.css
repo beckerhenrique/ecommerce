@@ -1,0 +1,43 @@
+.item-container{
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+   width: 90%;
+   margin: auto;
+   background-color: aliceblue;
+   min-height: 90vh;
+   padding-bottom: 2rem;
+   padding: 2rem;
+}
+.item-container h1{
+   text-transform: capitalize;
+   text-align: center;
+}
+#img-container{
+   max-width: 400px;
+   min-width: 200px;
+}
+#img-container img{
+   margin: auto;
+   width: 100%;
+}
+#ratingStar{
+   color: rgb(152, 152, 28);
+}
+.item-separate{
+   display: flex;
+   padding-top: 2rem;
+   gap: 2rem;
+   flex-wrap: wrap;
+   min-width: 400px;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+#description-container{
+   max-width: 300px;
+   display: table;
+   padding-top: 10%;
+   line-height: 2rem;
+}
+#prevPrice{
+   text-decoration: line-through;
+}

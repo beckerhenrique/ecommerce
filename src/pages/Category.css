@@ -1,0 +1,19 @@
+.category-container{
+   text-align: center;
+   margin: auto;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   background-color: aliceblue;
+   width: 90%;
+   min-height: 90vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.categories-container{
+   padding: 2rem;
+}
+.category-container h1{
+   text-transform: capitalize;
+   color: black;
+}
