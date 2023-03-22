@@ -7,14 +7,14 @@ Atualmente, estou trabalhando na implementação de um carrinho de compras, que 
 
 Como executar o projeto:
   Clone este repositório para sua máquina
-  Instale as dependências utilizando o comando npm install
-  Inicie o servidor local utilizando o comando npm start
-  Acesse o projeto em seu navegador em http://localhost:3000/
+  Instale as dependências utilizando o comando npm install;
+  Inicie o servidor local utilizando o comando npm start;
+  Acesse o projeto em seu navegador em http://localhost:3000/;
 
 Funcionalidades disponíveis
 Atualmente, o projeto oferece as seguintes funcionalidades:
-  Navegação entre as páginas do site
-  Pesquisa por palavra-chave na barra de busca
-  Exibição de produtos na de determinada categoria, clicando no card desejado
-  Exibição de detalhes de cada produto ao clicar em seu card
+  Navegação entre as páginas do site;
+  Pesquisa por palavra-chave na barra de busca;
+  Exibição de produtos na de determinada categoria, clicando no card desejado;
+  Exibição de detalhes de cada produto ao clicar em seu card;
   Em breve, estará disponível a funcionalidade de carrinho de compras.
