@@ -11,13 +11,17 @@ import Promotions from './pages/Promotions'
 import './index.css'
 import Category from './pages/Category'
 
+import { CartListProvider } from './context/CartListContext'
+import ShoppingCart from './pages/ShoppingCart'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <CartListProvider>
     <BrowserRouter>
     <Routes>
       <Route element={<App/>}>
+        <Route path='shoppingcart' element={<ShoppingCart/>}/>
         <Route path='/' element={<Home />}/>
         <Route path='item/:id' element={<Item/>}/>
         <Route path='search' element={<Search />}/>
@@ -26,5 +30,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       </Route>
     </Routes>
     </BrowserRouter>
+    </CartListProvider>
   </React.StrictMode>,
 )

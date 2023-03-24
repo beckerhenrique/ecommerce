@@ -34,16 +34,18 @@
    gap: 1em;
 }
 #submiteBtn{
-  height: 45px;
-  width: 40px;
+  padding: 0.5rem;
   justify-content: center;
-  color: #3978ec;
+  color: #6395F2;
   background-color: #091834;
+}
+#submiteBtn:hover{
+  border: 2px solid #6395F2;
 }
 #navbar form button {
   border-radius: 4px;
 
-  padding: 0.4rem;
+  
   font-size: 1.3rem;
   display: flex;
   align-items: center;
@@ -53,16 +55,19 @@
 #shoppingCart{
    cursor: pointer;
    border: 2px solid black;
-   padding: 0.4rem;
+   padding: 0.5rem;
    border-radius: 10px;
    display: flex;
    align-items: center;
    justify-content: center;
-
+   color: #6395F2;
+}
+#shoppingCart:visited{
+  text-decoration: none;
 }
 #shoppingCart:hover{
-   border-color: darkorange;
-   color: darkorange;
+   border: 2px solid #6395F2
+   
 }
 @media (max-width: 625px){
   #navbar h2{

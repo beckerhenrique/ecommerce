@@ -1,0 +1,37 @@
+.shoppingCartPageAll{
+   min-height: 90vh;
+}
+.shoppingCartPage{
+   display: flex;
+   flex-direction: column;
+   min-height: 90vh;
+   margin-top: 2rem;
+}
+.clearBtn{
+   background-color: #091834;
+   color: #6395f2;
+   height: 40px;
+   padding: 1rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 25px;
+   justify-self: center;
+   width: 150px;
+   align-self: flex-end;
+   margin-right: 6rem;
+}
+.clearBtn:hover{
+   border: 2px solid #6395f2;
+   cursor: pointer;
+}
+.titleShoppingCartPage{
+   text-align: center;
+}
+.totalPrice{
+   text-align: end;
+   padding-right: 7rem;
+}
+.noItensShoppingCart{
+   text-align: center;
+}

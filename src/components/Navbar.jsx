@@ -32,9 +32,11 @@ function Navbar() {
             <FaSearch/>
          </button>
       </form>
+      <Link to={'shoppingcart'}>
       <h2 id='shoppingCart'>
       <BsCart id='shoppingCartIcon'/>
       </h2>
+      </Link>
       </section>
     </nav>
   )

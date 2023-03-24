@@ -7,6 +7,7 @@ import ScrollToTop from "react-scroll-to-top";
 
 import "./Home.css";
 
+
 const itemsURL = import.meta.env.VITE_API;
 const categoriesUrl = import.meta.env.VITE_CATEGORIES;
 
@@ -38,6 +39,7 @@ function Home() {
   useEffect(() => {
     getTopItens(itemsURL);
     getCategories(categoriesUrl);
+
   }, []);
 
   return (
