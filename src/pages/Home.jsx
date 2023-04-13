@@ -4,6 +4,7 @@ import CategoryCard from "../components/CategoryCard";
 import salePic from "../components/images/download.jpg";
 import ItemCard from "../components/ItemCard";
 import ScrollToTop from "react-scroll-to-top";
+import {SiLeaderprice} from 'react-icons/si'
 
 import "./Home.css";
 
@@ -46,7 +47,7 @@ function Home() {
     <div>
       <ScrollToTop />
       <Link to="promotions" id="mainBanner">
-        <img src={salePic} alt="" />
+      <SiLeaderprice className="mainBannerTag"/>
         <h2>Clique aqui para conferir as promoções!!</h2>
       </Link>
       <section className="top20">

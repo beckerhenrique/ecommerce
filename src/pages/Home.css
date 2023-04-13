@@ -6,22 +6,22 @@
    padding: 2rem;
    border: 1px solid black;
    width: 40%;
+   gap: 2rem;
    margin: auto;
    margin-top: 2rem;
    border-radius: 50px;
    color: #3978ec;
-   background-color: rgb(222, 222, 222);
+   background-color: rgb(236, 236, 255);
    text-align: center;
 }
 #mainBanner:visited{
    text-decoration: none;
 }
 #mainBanner:hover{
-   border: 1px solid blue;
+   border: 2px solid blue;
 }
-#mainBanner img{
-   width: 20rem;
-   mix-blend-mode: multiply;
+.mainBannerTag{
+   font-size: 200px;
 }
 #mainBanner h4{
    color: black;
@@ -35,6 +35,7 @@
    margin: auto;
    margin-top: 2rem;
    color: #3978ec;
+
 }
 .top20-container{
    flex: 1;
@@ -76,20 +77,16 @@
 }
 
 .allItens-container{
+   padding-top: 1rem;
    display: flex;
    flex-wrap: wrap;
    gap: 1rem;
-   padding: 1rem;
-   justify-content: center;
+   justify-content: space-evenly;
    
 }
-@media (max-width: 670px){
-   #mainBanner img{
-      width: 15rem;
-   }
-}
+
 @media(max-width: 470px){
-   #mainBanner img{
-      width: 10rem;
+   .mainBannerTag{
+      font-size: 100px;
    }
 }
